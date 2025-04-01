@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+body {
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100%;
+      }
+.container {
+    width: 900px !important;
+    border-radius: 35px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: fff;
+    
+  }
+  form {
+    margin-top: 20px;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+
+  
+
+  td{
+      background-color: black;
+      color: white;
+      text-align: center;
+      
+  }
+  th{
+      color: black;
+      text-align: center;
+  }
+  
+
+  
+      
+  
+  #img1{
+      width: 50% !important;
+      height: 50% !important;
+      margin: 10%;
+  }
+  
+  h1 {
+    font-family: Arial, sans-serif;
+    font-size: 40px !important;
+    color: #000000;
+    text-transform: uppercase;
+
+    
+  }
+#btn{
+    color: green;
+    width: 100px !important;
+}
+#buscador{
+    width: 550px !important;
+}
+#textos{
+  font-size: 15px !important;
+}
+.table-responsive {
+  overflow-x: auto; /* Agregamos desplazamiento en pantallas pequeñas */
+}
+
+#tabla {
+  width: 50%;
+  margin-top: 25px;
+  margin-left: 440px;
+  border-collapse: collapse;
+}
+
+td {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+th {
+  color: black;
+  text-align: center;
+}
+
+/* Imagen dentro de la tabla */
+#img_t {
+  width: 50px;
+  height: auto;
+}
+#btn_1{
+  width: 100px !important;
+}
+#nom{
+  font-size: 18px;
+}
+
+@media(max-width:800px){
+  .container {
+    width: 350px !important;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #000000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: fff;
+    
+  }
+  #buscador{
+    width: 200px !important;
+}
+#btn{
+  color: green;
+  width: 50px !important;
+}
+#textos{
+  font-size: 5px !important;
+}
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 20px !important;
+  color: #000000;
+  text-transform: uppercase;
+
+  
+}
+.table-responsive {
+  overflow-x: auto;
+}
+
+#tabla {
+  width: 150px !important;
+  font-size: 6px;
+  margin-left: 0px;
+}
+#img_t {
+  width: 20px;
+  height: auto;
+}
+#btn_1{
+  width: 50px !important;
+  font-size: 10px !important;
+}
+#nom{
+  font-size: 4px !important;
+}
+
+}

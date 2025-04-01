@@ -1,0 +1,75 @@
+*{
+  
+    box-sizing: border-box !important;
+    
+  }
+#img{
+    width: 30px;
+    height: 50px;
+    margin-left: 15px !important;
+    margin-top: 5px !important;
+}
+form{
+        border-radius: 35px;
+        box-shadow: 1px 1px 5px 1px #ffffff;
+        
+    }
+h2{
+    padding-left: 7%;
+    
+    padding-top: 3%;
+}
+
+#btn{
+    border-radius: 15px;
+}
+body {
+background: url(../img_pagina/fondo.jpg); 
+background-size: cover;
+background-repeat: no-repeat;
+margin: 0;
+height: 100vh;
+}
+.container{
+    margin-left: 550px !important;
+    width: 400px !important;
+    
+}
+#form{
+    background-color: rgba(0, 0, 0, 0.707);
+    color: #ffffff;
+    
+    
+}
+#titulo{
+    font-size: 25px;
+    
+
+}
+#email{
+    font-size: 15px;
+}
+.form-control{
+    width: 200px !important;
+    margin-left: 10rem !important;
+}
+#hr{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#btn{
+    width: 150px;
+    
+}
+@media(max-width:800px) {
+    .container{
+        margin-left: 45px !important;
+        width: 300px !important;
+        
+    }
+    .form-control{
+        width: 180px !important;
+        margin-left: 5rem !important;
+    }
+    
+}

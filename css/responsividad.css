@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#Nombre{
+    font-size: 1.5rem;
+}
+#clas{
+    font-size: 1rem;
+}
+
+#video-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Alineación horizontal de las tarjetas */
+}
+
+.card {
+    width: 45%; /* Ancho inicial con márgenes */
+    margin: 10px;
+    box-sizing: border-box; /* Incluye el borde y el relleno en el cálculo del ancho */
+}
+/* aqui es el css del card */
+#card{
+    width: 18rem;
+}
+#precio{
+    font-size: 35px;
+}
+#img_card{
+    width: 100%;
+    height: 80%;
+}
+#Nombre{
+    font-size: 25px;
+}
+#clas{
+    font-size: 20px;
+}
+#descrip{
+    font-size: 15px;
+}
+#btn_card{
+    font-size: 25px;
+}
+#btn_card{
+    margin-left: 650px !important;
+}
+@media (max-width:800px){
+    #card{
+        width: 8rem;
+    }
+    #precio{
+        font-size: 15px;
+    }
+    #Nombre{
+        font-size: 11px;
+    }
+    #clas{
+        font-size: 7px;
+    }
+    #descrip{
+        font-size: 8px;
+    }
+    #btn_card{
+        font-size: 10px;
+    }
+
+}

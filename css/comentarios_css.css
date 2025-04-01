@@ -1,0 +1,86 @@
+*{
+    margin: 0 !important;
+    box-sizing: border-box;
+    
+  }
+  .container {
+    max-width: 620px; /* Limita el ancho máximo */
+    background-image: url(../IMG/c1.jpg) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Mantiene la cobertura sin distorsionar */
+    border-radius: 20px;
+    min-height: 400px ; /* Establece un tamaño mínimo */
+    max-height: 600px ; /* Evita que se expanda demasiado */
+    padding: 20px;
+   
+    display: flex;
+    align-items: center; /* Centra el contenido verticalmente */
+    justify-content: center; /* Centra el contenido horizontalmente */
+}
+
+  .titi{
+    text-align: center;
+    color:white;
+    font-size: 28px;
+  }
+
+
+  .formulario {
+    width: 600px;
+    margin-left: 10px;
+    background: rgba(0, 0, 0, 0.8); /* Fondo semitransparente */
+    color: black;
+    padding: 20px;
+    box-shadow:  5px 5px 5px 3px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  
+  #input{
+    margin: 10px 100px;
+    width:  400px;
+  } 
+  #text{
+    text-align: center;
+    padding-top: 10px;
+    color: white !important;
+  }
+  
+  
+  #inea{
+    color: white;
+  }
+  #btn1{
+    margin-left: 35px;
+  }
+  #textito{
+    color: white !important;
+  }
+
+@media(max-width:800px){
+    .container{
+        width: 300px;
+        border-radius: 10px;
+    }
+    .formulario{
+        width: 250px;
+        margin-left: 2px;
+        padding: 5px;
+        box-shadow: 2px 2px 2px 2px;
+        border-radius: 10px;
+    }
+    #input{
+        margin: 5px 25px;
+        width: 200px;
+    }
+    #btn1{
+        margin-left: 20px;
+    }
+    .titi{
+      text-align: center;
+      color:white;
+      font-size: 14px;
+    }
+}

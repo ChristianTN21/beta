@@ -1,0 +1,56 @@
+
+*{
+    margin: 0 !important;
+    
+    
+  }
+   
+    #foto{
+        margin-left: 10%;
+        width: 80%;
+    }
+    #reja1{
+        width: 12%;
+        margin-left: 2rem;
+        
+    }
+
+    #lab{
+        text-align: end;
+        font-size:large;
+        
+
+    }
+    #reja{
+        width: 290px;
+        margin-left: 2rem;
+        
+    }
+    #reja2{
+        width: 140px;
+        margin-left: 2rem;
+        
+    }
+    #reja3{
+        width: 140px;
+        margin-left: .5rem;
+        
+    }
+    body {
+  background: url(../img_pagina/fondo.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  width: 100%;
+	}
+    #form{
+        box-shadow: 4px 4px 4px 4px gray; 
+        width: 70%; 
+    }
+   #titulo{
+    padding-top: 0.5rem;
+   }
+    #img-foto{
+        width: 250px;
+        height: 250px;
+    }

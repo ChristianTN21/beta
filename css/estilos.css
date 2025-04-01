@@ -1,0 +1,12 @@
+#form{
+    width: 80%;
+}
+#div{
+    width: 600px !important;
+    padding-left:20%;
+    text-align: center;
+    padding-right: 1px !important;
+}
+body{
+    background-color: aqua;
+}
